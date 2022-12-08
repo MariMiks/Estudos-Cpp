@@ -2,10 +2,15 @@
 using namespace std;
 
 int main(){
-    int x;
-    cout << "Type your number: ";
-    cin >> x; 
-    cout << "Your number is: " << x;
+    int x, y;
+    int sum;
+    cout << "This is a simple calculator that just sum \n";
+    cout << "First number: ";
+    cin >> x;
+    cout << "Second number: ";
+    cin >> y;
+    sum = x + y;
+    cout << "Result is: " << x;
 }
 
 
