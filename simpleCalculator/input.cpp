@@ -10,7 +10,7 @@ int main(){
     cout << "Second number: ";
     cin >> y;
     sum = x + y;
-    cout << "Result is: " << x;
+    cout << "Result is: " << sum;
 }
 
 
