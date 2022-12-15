@@ -1,5 +1,5 @@
 #include <iostream>
-usign namespace std;
+using namespace std;
 
 int main(){
     int num = 2;                 //Numeros inteiros, positivos e negativos
@@ -7,5 +7,5 @@ int main(){
     double doubleNum = 9.98;     //Pontos flutuantes, ocupa mais espaco na memoria, armazena numeros maiores
     char letter = 'M';           //Caracteres unicos
     bool boolean = true;         //Verdadeiro ou falso
-    string text = "Eae mundo";   //Textos sem tamanho limite
+    std::string text = "Eae mundo";   //Textos sem tamanho limite
 }
