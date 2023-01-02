@@ -8,4 +8,7 @@ int main(){
     char letter = 'M';           //Caracteres unicos
     bool boolean = true;         //Verdadeiro ou falso
     std::string text = "Eae mundo";   //Textos sem tamanho limite
+
+    int a = 1, b = 2, c = 2;     //Multiplas variaveis
+    const double pi = 3.14;      //Constantes, nao podem ser alteradas
 }
