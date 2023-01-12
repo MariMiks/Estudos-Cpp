@@ -9,7 +9,11 @@ int main() {
   cout << "Current earth weight: ";
   cin >> weight;
 
-  cout << "1.Mercury\n" << "2.Venus\n" << "3.Mars\n" << "4.Jupiter\n" << "5.Saturn\n" << "6.Uranus\n" << "7.Neptune\n"; //tentar colocar dps em array
+  string planets[7] = {"1.Mercury\n", "2.Venus\n", "3.Mars\n", "4.Jupiter\n", "5.Saturn\n", "6.Uranus\n", "7.Neptune\n"};
+
+  for (string nameP : planets){
+    cout << nameP;
+  }
 
   cout << "Choose your planet: ";
   cin >> planet;
@@ -21,6 +25,7 @@ int main() {
     while(planet > 7){
         cout << "Not a planet. Try again: ";
         cin >> planet;
+        }
 
     switch (planet) {
         case 1:
@@ -60,6 +65,5 @@ int main() {
 
 
       }
-    }
 
 }
