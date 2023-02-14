@@ -17,19 +17,19 @@ int main() {
   cout << "Digite o segundo numero: ";
   cin >> n2;
 
-  if (equa == "*") {
-    cout << n1 << " * " << n2 << " = " << n1*n2;
-  }
+  switch (equa)
+  {
+    case "*":
+        return cout n1 << " * " << n2 << " = " << n1*n2;
 
-  if (equa == "/") {
-    cout << n1 << " / " << n2 << " = " << n1/n2;
-  }
+    case "/":
+        return cout << n1 << " / " << n2 << " = " << n1/n2;
 
-  if (equa == "+") {
-    cout << n1 << " + " << n2 << " = " << n1+n2;
-  }
+    case "+":
+        return cout << n1 << " + " << n2 << " = " << n1+n2;
 
-  if (equa == "-") {
-    cout << n1 << " - " << n2 << " = " << n1-n2;
+    case "-":
+        return cout << n1 << " - " << n2 << " = " << n1-n2;
+
   }
 }
